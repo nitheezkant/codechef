@@ -75,6 +75,8 @@ for i in range(ch):
             else:
                 print(3)            
     elif "_" not in (f+s+t):
+            cx=0
+            cy=0      
             for i1 in f:
                 if i1=="X":
                     cx=cx+1
